@@ -46,7 +46,7 @@ File.open(file).each do |line|
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::DC.identifier, id]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::RDFS.label, name]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.version, "9"]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, name]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, RDF::URI("http://dbtss.hgc.jp/rdf/sample/#{name}")]
 end
 
 puts graph.dump(:turtle)
