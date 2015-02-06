@@ -1,11 +1,10 @@
 require 'rdf'
 require 'rdf/ntriples'
 require 'rdf/turtle'
-require 'mysql2'
+#require 'mysql2'
 include RDF
 
-
-graph = RDF::Graph.new
+file = ARGV[0] || "sample/DBTSS_definition.tsv"
 
 #########################################################
 #  define PREFIX
@@ -15,7 +14,6 @@ rdfs = RDF::Vocabulary.new("http://www.w3.org/TR/rdf-schema/#")
 owl = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
 obo = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
 dc = RDF::Vocabulary.new("http://purl.org/dc/terms/")
-#bao = RDF::Vocabulary.new("")
 dbtsse = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
 dbtsso = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
 #faldo = RDF::Vocabulary.new("http://biohackathon.org/resource/faldo#")
@@ -35,20 +33,20 @@ puts "@prefix dc: <#{RDF::URI(dc)}> ."
 puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
 puts "@prefix dbtsso: <#{RDF::URI(dbtsso)}> ."
 
-# retrieve experimental metadata
-client = Mysql2::Client.new(:host => 'localhost', :username => 'dbtss', :password => 'dbtss', :database => 'dbtss')
-experiments = client.query("SELECT * FROM experiments")
+graph = RDF::Graph.new
 
-experiments.each do |exp|
-  id = "TSE" + sprintf("%06d", exp["id"])
-  type = exp["class"]
-  type = exp["subclass"] unless exp["subclass"] == ""
+File.open(file).each do |line|
+  id, name, type, a_num, dist, cat_num, ethnicity, gender, age, smoking, medium, dish, exp_class, subclass = line.chomp.split("\t")
+
+  id = "TSE" + sprintf("%06d", id)
+  exp_class = subclass if subclass
+  
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF.type, dbtsso.Experiment]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.experimentType, RDF::URI("http://dbtss.hgc.jp/rdf/ontology/#{type}")]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.experimentType, RDF::URI("http://dbtss.hgc.jp/rdf/ontology/#{exp_class}")]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::DC.identifier, id]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::RDFS.label, exp["name"]]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::RDFS.label, name]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.version, "9"]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, exp["name"]]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, name]
 end
 
 puts graph.dump(:turtle)
