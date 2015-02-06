@@ -1,0 +1,376 @@
+1	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	RNA-Seq	
+2	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		RNA-Seq	
+3	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		RNA-Seq	
+4	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		RNA-Seq	
+5	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		RNA-Seq	
+6	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		RNA-Seq	
+7	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	RNA-Seq	
+8	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		RNA-Seq	
+9	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		RNA-Seq	
+10	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		RNA-Seq	
+11	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		RNA-Seq	
+12	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	RNA-Seq	
+13	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		RNA-Seq	
+14	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		RNA-Seq	
+15	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		RNA-Seq	
+16	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		RNA-Seq	
+17	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		RNA-Seq	
+18	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	RNA-Seq	
+19	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		RNA-Seq	
+20	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		RNA-Seq	
+21	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		RNA-Seq	
+22	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		RNA-Seq	
+23	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		RNA-Seq	
+24	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		RNA-Seq	
+25	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	RNA-Seq	
+26	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		RNA-Seq	
+27	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		RNA-Seq	
+28	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	
+29	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	
+30	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	
+31	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	
+32	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	
+33	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	
+34	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	
+35	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	
+36	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	
+37	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	
+38	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	
+39	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	
+40	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	
+41	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	
+42	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	
+43	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	
+44	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	
+45	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	
+46	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	
+47	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	
+48	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	
+49	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	
+50	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	
+51	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	
+52	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	
+53	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	
+54	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	
+55	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		BS-Seq	
+56	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		BS-Seq	
+57	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		BS-Seq	
+58	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		BS-Seq	
+59	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		BS-Seq	
+60	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	BS-Seq	
+61	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		BS-Seq	
+62	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		BS-Seq	
+63	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		BS-Seq	
+64	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		BS-Seq	
+65	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	BS-Seq	
+66	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		BS-Seq	
+67	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		BS-Seq	
+68	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		BS-Seq	
+69	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		BS-Seq	
+70	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		BS-Seq	
+71	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	BS-Seq	
+72	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		BS-Seq	
+73	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		BS-Seq	
+74	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		BS-Seq	
+75	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		BS-Seq	
+76	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		BS-Seq	
+77	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		BS-Seq	
+78	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	BS-Seq	
+79	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		BS-Seq	
+80	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		BS-Seq	
+81	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		Whole-genome	
+82	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		Whole-genome	
+83	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		Whole-genome	
+84	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		Whole-genome	
+85	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		Whole-genome	
+86	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	Whole-genome	
+87	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		Whole-genome	
+88	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		Whole-genome	
+89	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		Whole-genome	
+90	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		Whole-genome	
+91	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	Whole-genome	
+92	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		Whole-genome	
+93	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		Whole-genome	
+94	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		Whole-genome	
+95	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		Whole-genome	
+96	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		Whole-genome	
+97	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	Whole-genome	
+98	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		Whole-genome	
+99	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		Whole-genome	
+100	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		Whole-genome	
+101	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		Whole-genome	
+102	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		Whole-genome	
+103	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		Whole-genome	
+104	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	Whole-genome	
+105	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		Whole-genome	
+106	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		Whole-genome	
+107	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	TSS-Seq	
+108	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		TSS-Seq	
+109	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		TSS-Seq	
+110	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		TSS-Seq	
+111	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		TSS-Seq	
+112	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		TSS-Seq	
+113	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	TSS-Seq	
+114	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		TSS-Seq	
+115	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		TSS-Seq	
+116	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		TSS-Seq	
+117	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		TSS-Seq	
+118	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	TSS-Seq	
+119	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		TSS-Seq	
+120	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		TSS-Seq	
+121	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		TSS-Seq	
+122	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		TSS-Seq	
+123	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		TSS-Seq	
+124	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	TSS-Seq	
+125	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		TSS-Seq	
+126	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		TSS-Seq	
+127	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		TSS-Seq	
+128	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		TSS-Seq	
+129	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		TSS-Seq	
+130	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		TSS-Seq	
+131	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	TSS-Seq	
+132	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		TSS-Seq	
+133	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		TSS-Seq	
+134	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K27me3
+135	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K27me3
+136	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K27me3
+137	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K27me3
+138	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K27me3
+139	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K27me3
+140	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K27me3
+141	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K27me3
+142	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K27me3
+143	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K27me3
+144	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K27me3
+145	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K27me3
+146	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K27me3
+147	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K27me3
+148	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K27me3
+149	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K27me3
+150	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K27me3
+151	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K27me3
+152	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K27me3
+153	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K27me3
+154	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K27me3
+155	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K27me3
+156	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K27me3
+157	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K27me3
+158	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K27me3
+159	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K27me3
+160	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K27me3
+161	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K4me3
+162	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K4me3
+163	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K4me3
+164	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K4me3
+165	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K4me3
+166	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K4me3
+167	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K4me3
+168	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K4me3
+169	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K4me3
+170	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K4me3
+171	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K4me3
+172	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K4me3
+173	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K4me3
+174	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K4me3
+175	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K4me3
+176	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K4me3
+177	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K4me3
+178	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K4me3
+179	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K4me3
+180	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K4me3
+181	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K4me3
+182	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K4me3
+183	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K4me3
+184	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K4me3
+185	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K4me3
+186	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K4me3
+187	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K4me3
+188	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3ac
+189	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3ac
+190	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3ac
+191	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3ac
+192	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3ac
+193	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3ac
+194	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3ac
+195	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3ac
+196	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3ac
+197	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3ac
+198	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3ac
+199	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3ac
+200	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3ac
+201	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3ac
+202	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3ac
+203	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3ac
+204	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3ac
+205	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3ac
+206	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3ac
+207	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3ac
+208	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3ac
+209	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3ac
+210	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3ac
+211	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3ac
+212	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3ac
+213	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3ac
+214	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3ac
+215	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K27ac
+216	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K27ac
+217	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K27ac
+218	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K27ac
+219	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K27ac
+220	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K27ac
+221	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K27ac
+222	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K27ac
+223	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K27ac
+224	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K27ac
+225	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K27ac
+226	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K27ac
+227	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K27ac
+228	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K27ac
+229	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K27ac
+230	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K27ac
+231	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K27ac
+232	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K27ac
+233	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K27ac
+234	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K27ac
+235	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K27ac
+236	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K27ac
+237	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K27ac
+238	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K27ac
+239	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K27ac
+240	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K27ac
+241	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K27ac
+242	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K36me3
+243	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K36me3
+244	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K36me3
+245	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K36me3
+246	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K36me3
+247	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K36me3
+248	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K36me3
+249	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K36me3
+250	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K36me3
+251	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K36me3
+252	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K36me3
+253	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K36me3
+254	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K36me3
+255	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K36me3
+256	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K36me3
+257	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K36me3
+258	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K36me3
+259	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K36me3
+260	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K36me3
+261	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K36me3
+262	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K36me3
+263	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K36me3
+264	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K36me3
+265	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K36me3
+266	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K36me3
+267	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K36me3
+268	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K36me3
+269	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K4me1
+270	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K4me1
+271	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K4me1
+272	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K4me1
+273	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K4me1
+274	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K4me1
+275	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K4me1
+276	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K4me1
+277	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K4me1
+278	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K4me1
+279	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K4me1
+280	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K4me1
+281	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K4me1
+282	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K4me1
+283	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K4me1
+284	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K4me1
+285	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K4me1
+286	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K4me1
+287	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K4me1
+288	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K4me1
+289	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K4me1
+290	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K4me1
+291	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K4me1
+292	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K4me1
+293	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K4me1
+294	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K4me1
+295	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K4me1
+296	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	H3K9me3
+297	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	H3K9me3
+298	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	H3K9me3
+299	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	H3K9me3
+300	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	H3K9me3
+301	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	H3K9me3
+302	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	H3K9me3
+303	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	H3K9me3
+304	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	H3K9me3
+305	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	H3K9me3
+306	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	H3K9me3
+307	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	H3K9me3
+308	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	H3K9me3
+309	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	H3K9me3
+310	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	H3K9me3
+311	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	H3K9me3
+312	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	H3K9me3
+313	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	H3K9me3
+314	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	H3K9me3
+315	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	H3K9me3
+316	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	H3K9me3
+317	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	H3K9me3
+318	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	H3K9me3
+319	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	H3K9me3
+320	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	H3K9me3
+321	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	H3K9me3
+322	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	H3K9me3
+323	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	PolII
+324	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	PolII
+325	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	PolII
+326	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	PolII
+327	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	PolII
+328	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	PolII
+329	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	PolII
+330	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	PolII
+331	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	PolII
+332	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	PolII
+333	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	PolII
+334	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	PolII
+335	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	PolII
+336	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	PolII
+337	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	PolII
+338	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	PolII
+339	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	PolII
+340	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	PolII
+341	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	PolII
+342	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	PolII
+343	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	PolII
+344	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	PolII
+345	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	PolII
+346	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	PolII
+347	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	PolII
+348	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	PolII
+349	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	PolII
+350	SAEC (control)	Small airway epithelial cell	s_35	TAKARA (Lonza)			M				collagen Type I-coated	ChIP-Seq	WC
+351	PC-9	lung adenocarcinoma	s_9	RIKEN BRC	RCB4455	Japanese				RPMI		ChIP-Seq	WC
+352	PC-14	lung adenocarcinoma	s_10	IBL		Japanese				RPMI		ChIP-Seq	WC
+353	RERF-LC-KJ	lung adenocarcinoma	s_13	RIKEN BRC	RCB1313	Japanese	M	78		RPMI		ChIP-Seq	WC
+354	RERF-LC-Ad1	lung adenocarcinoma	s_11	JCRB	JCRB1020	Japanese	M	70		RPMI		ChIP-Seq	WC
+355	RERF-LC-Ad2	lung adenocarcinoma	s_12	JCRB	JCRB1021	Japanese	M			RPMI		ChIP-Seq	WC
+356	LC2/ad	lung adenocarcinoma	s_18	RIKEN BRC	RCB0440	Japanese	F	51		DMEM	collagen Type I-coated	ChIP-Seq	WC
+357	RERF-LC-MS	lung adenocarcinoma	s_14	JCRB	JCRB0081	Japanese				EMEM		ChIP-Seq	WC
+358	VMRC-LCD	lung adenocarcinoma	s_16	JCRB	JCRB0814	Japanese	M			EMEM		ChIP-Seq	WC
+359	ABC-1	lung adenocarcinoma	s_17	JCRB	JCRB0815	Japanese	M	47		EMEM		ChIP-Seq	WC
+360	PC-7	lung adenocarcinoma	s_8	IBL		Japanese				RPMI		ChIP-Seq	WC
+361	PC-3	lung adenocarcinoma	s_7	JCRB	JCRB0077	Japanese	F	48		RPMI	collagen Type I-coated	ChIP-Seq	WC
+362	II-18	lung adenocarcinoma	s_19	RIKEN BRC	RCB2093	Japanese				RPMI		ChIP-Seq	WC
+363	RERF-LC-OK	lung adenocarcinoma	s_15	JCRB	JCRB0811	Japanese				RPMI		ChIP-Seq	WC
+364	A549	lung adenocarcinoma	s_1	ATCC	CCL-185	Caucasian	M	58		DMEM		ChIP-Seq	WC
+365	A427	lung adenocarcinoma	s_20	ATCC	HTB-53	Caucasian	M	52		RPMI		ChIP-Seq	WC
+366	H322	lung adenocarcinoma	s_21	ATCC	CRL-5806	Caucasian				RPMI		ChIP-Seq	WC
+367	H1648	lung adenocarcinoma	s_25	ATCC	CRL-5882	Black	M	39	Y	RPMI	collagen Type I-coated	ChIP-Seq	WC
+368	H1650	lung adenocarcinoma	s_26	ATCC	CRL-5883	Caucasian	M	27	Y	RPMI		ChIP-Seq	WC
+369	H1975	lung adenocarcinoma	s_29	ATCC	CRL-5908		F		N	RPMI		ChIP-Seq	WC
+370	H1299	lung adenocarcinoma	s_23	ATCC	CRL-5803	Caucasian	M	43		RPMI		ChIP-Seq	WC
+371	H2228	lung adenocarcinoma	s_22	ATCC	CRL-5935		F		N	RPMI		ChIP-Seq	WC
+372	H1819	lung adenocarcinoma	s_28	ATCC	CRL-5897	Caucasian	F	55	Y	RPMI		ChIP-Seq	WC
+373	H2126	lung adenocarcinoma	s_30	ATCC	CCL-256	Caucasian	M	65		RPMI		ChIP-Seq	WC
+374	H2347	lung adenocarcinoma	s_31	ATCC	CRL-5942	Caucasian	F	54	N	RPMI	collagen Type I-coated	ChIP-Seq	WC
+375	H1703	lung adenocarcinoma	s_27	ATCC	CRL-5889	Caucasian	M	54	Y	RPMI		ChIP-Seq	WC
+376	H1437	lung adenocarcinoma	s_24	ATCC	CRL-5872	Caucasian	M	60	Y	RPMI		ChIP-Seq	WC
