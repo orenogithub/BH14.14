@@ -1,0 +1,345 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://dbtss.hgc.jp/rdf/ontology/dbtss.owl> .
+
+<http://dbtss.hgc.jp/rdf/ontology/dbtss.owl> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#experimentType
+
+:experimentType rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "experiment type" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#has_SNV
+
+:has_SNV rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "has_SNV" ;
+         
+         rdfs:comment "Single nucleotide variation" ;
+         
+         rdfs:subPropertyOf :has_event .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#has_TSS
+
+:has_TSS rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "has_TSS" ;
+         
+         rdfs:comment "Transcription start site" ;
+         
+         rdfs:subPropertyOf :has_event .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#has_event
+
+:has_event rdf:type owl:ObjectProperty ;
+           
+           rdfs:label "has_event" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#resource
+
+:resource rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "resource" ;
+          
+          rdfs:comment "cell line used in an experiment" ;
+          
+          rdfs:domain :Experiment ;
+          
+          rdfs:range :Sample .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#additionalInformation
+
+:additionalInformation rdf:type owl:DatatypeProperty ;
+                       
+                       rdfs:label "Additional Information" ;
+                       
+                       rdfs:comment "Values from INFO tag" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#alleleFrequency
+
+:alleleFrequency rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:label "Allele Frequency" ;
+                 
+                 rdfs:comment "Allele Frequency, for each ALT allele, in the same order as listed" ;
+                 
+                 rdfs:range xsd:float .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#allelicDepths
+
+:allelicDepths rdf:type owl:DatatypeProperty ;
+               
+               rdfs:label "Allelic Depths" ;
+               
+               rdfs:comment "Allelic depths for the ref and alt alleles in the order listed" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#genotype
+
+:genotype rdf:type owl:DatatypeProperty ;
+          
+          rdfs:label "genotype" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#genotypeData
+
+:genotypeData rdf:type owl:DatatypeProperty ;
+              
+              rdfs:label "Genotype Data" ;
+              
+              rdfs:comment "values from FORMAT and following tags" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#genotypeQuality
+
+:genotypeQuality rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:label "Genotype Quality" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#quality
+
+:quality rdf:type owl:DatatypeProperty ;
+         
+         rdfs:label "Quality" ;
+         
+         rdfs:comment "Phred-scaled quality score for the assertion made in ALT. i.e. −10log10 prob(call in ALT is wrong). If ALT is ‘.’ (no variant) then this is −10log10 prob(variant), and if ALT is not ‘.’ this is −10log10 prob(no variant). If unknown, the missing value should be specified. (Numeric)" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#version
+
+:version rdf:type owl:DatatypeProperty ;
+         
+         rdfs:label "Version" ;
+         
+         rdfs:comment "Version of DBTSS" .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#BS-Seq
+
+:BS-Seq rdf:type owl:Class ;
+        
+        rdfs:label "BS-Seq" ;
+        
+        rdfs:subClassOf :Experiment .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#ChIP-seq
+
+:ChIP-seq rdf:type owl:Class ;
+          
+          rdfs:label "ChIP-seq" ;
+          
+          rdfs:subClassOf :Experiment .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#Experiment
+
+:Experiment rdf:type owl:Class ;
+            
+            rdfs:label "experiment" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K27ac
+
+:H3K27ac rdf:type owl:Class ;
+         
+         rdfs:label "H3K27ac" ;
+         
+         rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K27me3
+
+:H3K27me3 rdf:type owl:Class ;
+          
+          rdfs:label "H3K27me3" ;
+          
+          rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K36me3
+
+:H3K36me3 rdf:type owl:Class ;
+          
+          rdfs:label "H3K36me3" ;
+          
+          rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K4me1
+
+:H3K4me1 rdf:type owl:Class ;
+         
+         rdfs:label "H3K4me1" ;
+         
+         rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K4me3
+
+:H3K4me3 rdf:type owl:Class ;
+         
+         rdfs:label "H3K4me3" ;
+         
+         rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3K9me3
+
+:H3K9me3 rdf:type owl:Class ;
+         
+         rdfs:label "H3K9me3" ;
+         
+         rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#H3ac
+
+:H3ac rdf:type owl:Class ;
+      
+      rdfs:label "H3ac" ;
+      
+      rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#PolII
+
+:PolII rdf:type owl:Class ;
+       
+       rdfs:label "PolII" ;
+       
+       rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#RNA-seq
+
+:RNA-seq rdf:type owl:Class ;
+         
+         rdfs:label "RNA-seq" ;
+         
+         rdfs:subClassOf :Experiment .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#Sample
+
+:Sample rdf:type owl:Class ;
+        
+        rdfs:label "Sample" .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#TSS-seq
+
+:TSS-seq rdf:type owl:Class ;
+         
+         rdfs:label "TSS-seq" ;
+         
+         rdfs:subClassOf :Experiment .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#WC
+
+:WC rdf:type owl:Class ;
+    
+    rdfs:label "WC" ;
+    
+    rdfs:subClassOf :ChIP-seq .
+
+
+
+###  http://dbtss.hgc.jp/rdf/ontology/dbtss.owl#Whole-genome
+
+:Whole-genome rdf:type owl:Class ;
+              
+              rdfs:label "Whole-genome" ;
+              
+              rdfs:subClassOf :Experiment .
+
+
+
+
+###  Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net
+
