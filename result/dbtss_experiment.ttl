@@ -7,7 +7,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000001> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000001" .
 
@@ -196,7 +196,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000028> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000028" .
 
@@ -749,7 +749,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000107> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000107" .
 
@@ -938,7 +938,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000134> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000134" .
 
@@ -1127,7 +1127,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000161> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000161" .
 
@@ -1316,7 +1316,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000188> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000188" .
 
@@ -1505,7 +1505,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000215> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000215" .
 
@@ -1694,7 +1694,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000242> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000242" .
 
@@ -1883,7 +1883,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000269> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000269" .
 
@@ -2072,7 +2072,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000296> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000296" .
 
@@ -2261,7 +2261,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000323> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000323" .
 
@@ -2450,7 +2450,7 @@
 <http://dbtss.hgc.jp/rdf/experiment/TSE000350> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
    <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
    <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
-   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC (control)>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> <http://dbtss.hgc.jp/rdf/sample/SAEC>;
    <http://dbtss.hgc.jp/rdf/ontology/version> "9";
    <http://purl.org/dc/terms/identifier> "TSE000350" .
 

@@ -40,13 +40,14 @@ File.open(file).each do |line|
 
   id = "TSE" + sprintf("%06d", id)
   exp_class = subclass if subclass
+  sample = name.gsub(/\s\(control\)$/, "")
   
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF.type, dbtsso.Experiment]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.experimentType, RDF::URI("http://dbtss.hgc.jp/rdf/ontology/#{exp_class}")]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::DC.identifier, id]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::RDFS.label, name]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.version, "9"]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, RDF::URI("http://dbtss.hgc.jp/rdf/sample/#{name}")]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, RDF::URI("http://dbtss.hgc.jp/rdf/sample/#{sample}")]
 end
 
 puts graph.dump(:turtle)
