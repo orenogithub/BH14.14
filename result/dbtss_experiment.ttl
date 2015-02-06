@@ -1,0 +1,2637 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/TR/rdf-schema/#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dbtsse: <http://dbtss.hgc.jp/rdf/experiment/> .
+@prefix dbtsso: <http://dbtss.hgc.jp/rdf/ontology/> .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000001> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000001" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000002> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000002" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000003> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000003" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000004> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000004" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000005> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000005" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000006> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000006" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000007> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000007" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000008> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000008" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000009> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000009" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000010> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000010" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000011> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000011" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000012> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000012" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000013> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000013" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000014> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000014" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000015> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000015" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000016> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000016" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000017> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000017" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000018> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000018" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000019> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000019" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000020> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000020" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000021> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000021" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000022> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000022" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000023> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000023" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000024> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000024" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000025> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000025" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000026> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000026" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000027> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/RNA-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000027" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000028> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000028" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000029> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000029" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000030> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000030" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000031> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000031" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000032> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000032" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000033> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000033" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000034> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000034" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000035> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000035" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000036> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000036" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000037> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000037" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000038> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000038" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000039> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000039" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000040> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000040" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000041> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000041" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000042> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000042" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000043> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000043" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000044> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000044" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000045> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000045" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000046> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000046" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000047> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000047" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000048> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000048" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000049> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000049" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000050> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000050" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000051> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000051" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000052> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000052" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000053> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000053" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000054> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/ChIP-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000054" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000055> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000055" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000056> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000056" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000057> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000057" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000058> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000058" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000059> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000059" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000060> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000060" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000061> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000061" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000062> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000062" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000063> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000063" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000064> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000064" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000065> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000065" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000066> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000066" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000067> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000067" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000068> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000068" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000069> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000069" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000070> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000070" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000071> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000071" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000072> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000072" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000073> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000073" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000074> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000074" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000075> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000075" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000076> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000076" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000077> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000077" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000078> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000078" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000079> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000079" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000080> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/BS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000080" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000081> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000081" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000082> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000082" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000083> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000083" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000084> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000084" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000085> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000085" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000086" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000087> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000087" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000088> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000088" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000089> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000089" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000090> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000090" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000091> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000091" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000092> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000092" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000093> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000093" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000094> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000094" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000095> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000095" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000096> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000096" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000097> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000097" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000098> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000098" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000099> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000099" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000100> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000100" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000101> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000101" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000102> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000102" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000103> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000103" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000104> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000104" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000105> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000105" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000106> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/Whole-genome>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000106" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000107> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000107" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000108> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000108" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000109> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000109" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000110> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000110" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000111> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000111" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000112> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000112" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000113> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000113" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000114> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000114" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000115> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000115" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000116> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000116" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000117> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000117" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000118> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000118" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000119> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000119" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000120> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000120" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000121> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000121" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000122> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000122" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000123> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000123" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000124> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000124" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000125> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000125" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000126> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000126" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000127> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000127" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000128> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000128" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000129> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000129" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000130> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000130" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000131> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000131" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000132> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000132" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000133> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/TSS-Seq>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000133" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000134> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000134" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000135> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000135" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000136> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000136" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000137> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000137" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000138> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000138" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000139> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000139" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000140> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000140" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000141> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000141" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000142> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000142" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000143> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000143" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000144> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000144" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000145> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000145" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000146> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000146" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000147> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000147" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000148> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000148" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000149> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000149" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000150> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000150" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000151> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000151" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000152> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000152" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000153> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000153" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000154> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000154" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000155> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000155" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000156> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000156" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000157> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000157" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000158> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000158" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000159> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000159" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000160> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000160" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000161> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000161" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000162> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000162" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000163> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000163" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000164> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000164" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000165> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000165" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000166> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000166" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000167> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000167" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000168> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000168" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000169> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000169" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000170> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000170" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000171> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000171" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000172> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000172" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000173> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000173" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000174> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000174" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000175> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000175" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000176> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000176" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000177> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000177" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000178> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000178" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000179> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000179" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000180> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000180" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000181> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000181" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000182> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000182" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000183> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000183" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000184> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000184" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000185> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000185" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000186> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000186" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000187> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000187" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000188> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000188" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000189> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000189" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000190> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000190" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000191> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000191" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000192> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000192" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000193> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000193" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000194> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000194" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000195> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000195" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000196> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000196" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000197> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000197" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000198> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000198" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000199> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000199" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000200> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000200" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000201> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000201" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000202> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000202" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000203> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000203" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000204> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000204" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000205> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000205" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000206> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000206" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000207> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000207" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000208> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000208" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000209> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000209" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000210> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000210" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000211> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000211" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000212> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000212" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000213> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000213" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000214> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000214" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000215> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000215" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000216> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000216" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000217> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000217" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000218> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000218" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000219> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000219" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000220> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000220" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000221> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000221" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000222> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000222" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000223> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000223" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000224> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000224" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000225> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000225" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000226> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000226" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000227> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000227" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000228> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000228" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000229> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000229" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000230> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000230" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000231> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000231" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000232> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000232" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000233> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000233" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000234> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000234" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000235> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000235" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000236> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000236" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000237> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000237" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000238> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000238" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000239> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000239" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000240> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000240" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000241> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K27ac>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000241" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000242> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000242" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000243> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000243" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000244> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000244" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000245> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000245" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000246> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000246" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000247> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000247" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000248> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000248" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000249> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000249" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000250> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000250" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000251> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000251" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000252> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000252" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000253> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000253" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000254> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000254" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000255> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000255" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000256> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000256" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000257> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000257" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000258> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000258" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000259> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000259" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000260> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000260" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000261> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000261" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000262> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000262" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000263> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000263" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000264> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000264" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000265> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000265" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000266> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000266" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000267> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000267" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000268> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K36me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000268" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000269> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000269" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000270> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000270" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000271> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000271" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000272> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000272" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000273> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000273" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000274> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000274" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000275> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000275" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000276> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000276" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000277> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000277" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000278> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000278" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000279> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000279" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000280> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000280" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000281> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000281" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000282> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000282" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000283> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000283" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000284> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000284" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000285> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000285" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000286> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000286" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000287> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000287" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000288> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000288" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000289> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000289" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000290> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000290" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000291> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000291" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000292> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000292" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000293> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000293" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000294> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000294" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000295> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K4me1>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000295" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000296> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000296" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000297> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000297" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000298> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000298" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000299> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000299" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000300> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000300" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000301> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000301" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000302> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000302" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000303> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000303" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000304> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000304" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000305> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000305" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000306> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000306" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000307> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000307" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000308> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000308" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000309> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000309" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000310> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000310" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000311> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000311" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000312> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000312" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000313> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000313" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000314> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000314" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000315> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000315" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000316> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000316" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000317> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000317" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000318> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000318" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000319> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000319" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000320> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000320" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000321> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000321" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000322> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/H3K9me3>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000322" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000323> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000323" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000324> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000324" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000325> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000325" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000326> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000326" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000327> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000327" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000328> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000328" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000329> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000329" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000330> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000330" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000331> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000331" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000332> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000332" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000333> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000333" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000334> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000334" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000335> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000335" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000336> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000336" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000337> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000337" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000338> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000338" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000339> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000339" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000340> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000340" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000341> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000341" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000342> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000342" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000343> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000343" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000344> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000344" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000345> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000345" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000346> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000346" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000347> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000347" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000348> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000348" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000349> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/PolII>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000349" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000350> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "SAEC (control)";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000350" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000351> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-9";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000351" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000352> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-14";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000352" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000353> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-KJ";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000353" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000354> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000354" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000355> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-Ad2";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000355" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000356> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "LC2/ad";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000356" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000357> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-MS";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000357" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000358> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "VMRC-LCD";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000358" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000359> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "ABC-1";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000359" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000360> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-7";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000360" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000361> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "PC-3";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000361" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000362> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "II-18";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000362" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000363> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "RERF-LC-OK";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000363" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000364> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A549";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000364" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000365> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "A427";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000365" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000366> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H322";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000366" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000367> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1648";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000367" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000368> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1650";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000368" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000369> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1975";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000369" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000370> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1299";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000370" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000371> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2228";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000371" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000372> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1819";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000372" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000373> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2126";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000373" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000374> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H2347";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000374" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000375> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1703";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000375" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000376> a <http://dbtss.hgc.jp/rdf/ontology/Experiment>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/experimentType> <http://dbtss.hgc.jp/rdf/ontology/WC>;
+   <http://dbtss.hgc.jp/rdf/ontology/resource> "H1437";
+   <http://dbtss.hgc.jp/rdf/ontology/version> "9";
+   <http://purl.org/dc/terms/identifier> "TSE000376" .
