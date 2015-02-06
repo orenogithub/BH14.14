@@ -1,0 +1,1966 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/TR/rdf-schema/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dbtsse: <http://dbtss.hgc.jp/rdf/experiment/> .
+@prefix dbtsso: <http://dbtss.hgc.jp/rdf/ontology/> .
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
+@prefix idorg: <http://info.identifiers.org/> .
+@prefix ensembl: <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#> .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:10234 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10234-10234:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.777;DB;DP=53;Dels=0.02;FS=1.862;HRun=1;HaplotypeScore=43.1232;MQ=26.10;MQ0=1;MQRankSum=3.530;QD=1.37;ReadPosRankSum=2.915;SB=-42.24";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "42,10";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs145599635";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:42,10:52:61.94:103,0,62";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 61.94;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 72.66;
+   <http://purl.org/dc/terms/identifier> "1:10234";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs145599635>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs145599635>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:10234 allele C";
+   <http://purl.org/dc/terms/identifier> "1:10234#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10234#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:10234 allele T";
+   <http://purl.org/dc/terms/identifier> "1:10234#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10234-10234:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:10234-10234 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10234:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10234:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:10234-10234:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10234:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:10234 Forward";
+   <http://biohackathon.org/resource/faldo#position> 10234;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:10234:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:10235 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10235-10235:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.773;DP=52;Dels=0.02;FS=1.922;HRun=2;HaplotypeScore=39.1992;MQ=26.04;MQ0=1;MQRankSum=3.142;QD=2.04;ReadPosRankSum=3.043;SB=-42.24";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "40,9";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:40,9:51:21.93:136,0,22";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 21.93;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 106.33;
+   <http://purl.org/dc/terms/identifier> "1:10235";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:10235 allele A";
+   <http://purl.org/dc/terms/identifier> "1:10235#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:10235#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:10235 allele T";
+   <http://purl.org/dc/terms/identifier> "1:10235#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10235-10235:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:10235-10235 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10235:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10235:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:10235-10235:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:10235:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:10235 Forward";
+   <http://biohackathon.org/resource/faldo#position> 10235;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:10235:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:14907 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14907-14907:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.724;DB;DP=82;Dels=0.00;FS=5.251;HRun=1;HaplotypeScore=0.0000;MQ=17.43;MQ0=47;MQRankSum=2.257;QD=1.24;ReadPosRankSum=1.406;SB=-64.97";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "74,8";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs79585140";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:74,8:82:99:132,0,125";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 101.53;
+   <http://purl.org/dc/terms/identifier> "1:14907";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs79585140>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs79585140>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:14907 allele A";
+   <http://purl.org/dc/terms/identifier> "1:14907#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14907#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:14907 allele G";
+   <http://purl.org/dc/terms/identifier> "1:14907#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14907-14907:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:14907-14907 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14907:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14907:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:14907-14907:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14907:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:14907 Forward";
+   <http://biohackathon.org/resource/faldo#position> 14907;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:14907:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:14930 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14930-14930:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.143;DB;DP=79;Dels=0.00;FS=1.464;HRun=0;HaplotypeScore=6.6481;MQ=20.30;MQ0=36;MQRankSum=1.488;QD=1.33;ReadPosRankSum=-0.887;SB=-64.97";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "68,11";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs75454623";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:68,11:79:99:135,0,128";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 104.68;
+   <http://purl.org/dc/terms/identifier> "1:14930";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs75454623>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs75454623>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:14930 allele A";
+   <http://purl.org/dc/terms/identifier> "1:14930#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:14930#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:14930 allele G";
+   <http://purl.org/dc/terms/identifier> "1:14930#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14930-14930:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:14930-14930 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14930:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14930:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:14930-14930:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:14930:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:14930 Forward";
+   <http://biohackathon.org/resource/faldo#position> 14930;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:14930:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:16378 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16378-16378:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.829;DB;DP=139;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.9469;MQ=15.60;MQ0=53;MQRankSum=-0.544;QD=0.48;ReadPosRankSum=0.829;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "37,102";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs148220436";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:37,102:139:62.84:97,0,63";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 62.84;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 66.58;
+   <http://purl.org/dc/terms/identifier> "1:16378";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs148220436>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs148220436>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:16378 allele C";
+   <http://purl.org/dc/terms/identifier> "1:16378#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16378#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:16378 allele T";
+   <http://purl.org/dc/terms/identifier> "1:16378#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16378-16378:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:16378-16378 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16378:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16378:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:16378-16378:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16378:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:16378 Forward";
+   <http://biohackathon.org/resource/faldo#position> 16378;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:16378:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:16495 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16495-16495:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=1.133;DB;DP=97;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=9.3767;MQ=16.83;MQ0=19;MQRankSum=2.250;QD=2.89;ReadPosRankSum=-0.953;SB=-75.75";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "36,61";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs141130360";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:36,61:97:5.16:309,0,5";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 5.16;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 279.99;
+   <http://purl.org/dc/terms/identifier> "1:16495";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs141130360>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs141130360>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:16495 allele C";
+   <http://purl.org/dc/terms/identifier> "1:16495#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:16495#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:16495 allele G";
+   <http://purl.org/dc/terms/identifier> "1:16495#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16495-16495:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:16495-16495 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16495:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16495:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:16495-16495:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:16495:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:16495 Forward";
+   <http://biohackathon.org/resource/faldo#position> 16495;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:16495:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:17452 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:17452-17452:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.127;DB;DP=55;Dels=0.00;FS=5.497;HRun=0;HaplotypeScore=0.5784;MQ=22.79;MQ0=34;MQRankSum=-0.803;QD=2.25;ReadPosRankSum=-0.972;SB=-23.22";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "47,8";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs200503540";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:47,8:55:99:154,0,229";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 123.52;
+   <http://purl.org/dc/terms/identifier> "1:17452";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs200503540>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs200503540>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:17452 allele C";
+   <http://purl.org/dc/terms/identifier> "1:17452#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:17452#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:17452 allele T";
+   <http://purl.org/dc/terms/identifier> "1:17452#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:17452-17452:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:17452-17452 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:17452:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:17452:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:17452-17452:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:17452:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:17452 Forward";
+   <http://biohackathon.org/resource/faldo#position> 17452;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:17452:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:30860 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30860-30860:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=1.212;DP=45;Dels=0.00;FS=3.307;HRun=0;HaplotypeScore=31.2303;MQ=32.81;MQ0=8;MQRankSum=-0.358;QD=3.95;ReadPosRankSum=4.660;SB=-40.89";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "26,19";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:26,19:45:99:208,0,551";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 177.8;
+   <http://purl.org/dc/terms/identifier> "1:30860";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:30860 allele C";
+   <http://purl.org/dc/terms/identifier> "1:30860#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30860#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:30860 allele G";
+   <http://purl.org/dc/terms/identifier> "1:30860#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30860-30860:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:30860-30860 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30860:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30860:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:30860-30860:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30860:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:30860 Forward";
+   <http://biohackathon.org/resource/faldo#position> 30860;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:30860:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:30923 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30923-30923:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=21;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=35.97;MQ0=0;QD=22.45;SB=-234.32";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,21";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs140337953";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,21:21:39.13:504,39,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 39.13;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 471.49;
+   <http://purl.org/dc/terms/identifier> "1:30923";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs140337953>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs140337953>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:30923 allele G";
+   <http://purl.org/dc/terms/identifier> "1:30923#G" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:30923#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:30923 allele T";
+   <http://purl.org/dc/terms/identifier> "1:30923#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30923-30923:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:30923-30923 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30923:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30923:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:30923-30923:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:30923:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:30923 Forward";
+   <http://biohackathon.org/resource/faldo#position> 30923;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:30923:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:54421 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:54421-54421:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.676;DB;DP=86;Dels=0.00;FS=5.066;HRun=0;HaplotypeScore=2.3548;MQ=38.14;MQ0=0;MQRankSum=1.681;QD=5.60;ReadPosRankSum=-0.676;SB=-154.07";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "64,22";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs146477069";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:64,22:86:99:512,0,1014";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 481.64;
+   <http://purl.org/dc/terms/identifier> "1:54421";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs146477069>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs146477069>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:54421 allele A";
+   <http://purl.org/dc/terms/identifier> "1:54421#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:54421#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:54421 allele G";
+   <http://purl.org/dc/terms/identifier> "1:54421#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:54421-54421:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:54421-54421 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:54421:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:54421:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:54421-54421:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:54421:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:54421 Forward";
+   <http://biohackathon.org/resource/faldo#position> 54421;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:54421:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:55164 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55164-55164:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=49;Dels=0.00;FS=0.000;HRun=3;HaplotypeScore=0.0000;MQ=23.33;MQ0=10;QD=1.65;SB=-38.53";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,49";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs3091274";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,49:49:9.03:113,9,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 9.03;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 80.95;
+   <http://purl.org/dc/terms/identifier> "1:55164";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs3091274>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs3091274>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55164 allele A";
+   <http://purl.org/dc/terms/identifier> "1:55164#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55164#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55164 allele C";
+   <http://purl.org/dc/terms/identifier> "1:55164#C" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55164-55164:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:55164-55164 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55164:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55164:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55164-55164:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55164:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:55164 Forward";
+   <http://biohackathon.org/resource/faldo#position> 55164;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55164:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:55299 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55299-55299:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.338;DB;DP=89;Dels=0.00;FS=5.564;HRun=0;HaplotypeScore=3.3816;MQ=36.45;MQ0=1;MQRankSum=-1.570;QD=7.32;ReadPosRankSum=1.371;SB=-323.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "41,48";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs10399749";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:41,48:89:99:681,0,918";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 651.05;
+   <http://purl.org/dc/terms/identifier> "1:55299";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs10399749>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs10399749>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55299 allele C";
+   <http://purl.org/dc/terms/identifier> "1:55299#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55299#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55299 allele T";
+   <http://purl.org/dc/terms/identifier> "1:55299#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55299-55299:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:55299-55299 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55299:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55299:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55299-55299:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55299:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:55299 Forward";
+   <http://biohackathon.org/resource/faldo#position> 55299;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55299:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:55326 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55326-55326:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.638;DB;DP=90;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=37.40;MQ0=0;MQRankSum=-2.421;QD=4.43;ReadPosRankSum=-0.981;SB=-194.43";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "55,35";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs3107975";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:55,35:90:99:428,0,1511";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 398.26;
+   <http://purl.org/dc/terms/identifier> "1:55326";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs3107975>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs3107975>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55326 allele C";
+   <http://purl.org/dc/terms/identifier> "1:55326#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55326#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55326 allele T";
+   <http://purl.org/dc/terms/identifier> "1:55326#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55326-55326:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:55326-55326 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55326:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55326:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55326-55326:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55326:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:55326 Forward";
+   <http://biohackathon.org/resource/faldo#position> 55326;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55326:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:55545 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55545-55545:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=46;Dels=0.00;FS=0.000;HRun=1;HaplotypeScore=0.0000;MQ=24.62;MQ0=12;QD=6.85;SB=-35.24";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,46";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs28396308";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,46:46:27.09:348,27,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 27.09;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 315.31;
+   <http://purl.org/dc/terms/identifier> "1:55545";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs28396308>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs28396308>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55545 allele C";
+   <http://purl.org/dc/terms/identifier> "1:55545#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:55545#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:55545 allele T";
+   <http://purl.org/dc/terms/identifier> "1:55545#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55545-55545:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:55545-55545 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55545:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55545:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55545-55545:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:55545:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:55545 Forward";
+   <http://biohackathon.org/resource/faldo#position> 55545;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:55545:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:57158 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57158-57158:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.336;DB;DP=57;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=23.29;MQ0=7;MQRankSum=0.661;QD=2.29;ReadPosRankSum=-1.353;SB=-60.90";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "36,21";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs200506058";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:36,21:57:99:161,0,169";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 130.78;
+   <http://purl.org/dc/terms/identifier> "1:57158";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs200506058>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs200506058>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:57158 allele C";
+   <http://purl.org/dc/terms/identifier> "1:57158#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57158#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:57158 allele G";
+   <http://purl.org/dc/terms/identifier> "1:57158#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57158-57158:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:57158-57158 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57158:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57158:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:57158-57158:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57158:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:57158 Forward";
+   <http://biohackathon.org/resource/faldo#position> 57158;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:57158:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:57292 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57292-57292:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=1.664;DB;DP=103;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=1.7206;MQ=30.81;MQ0=9;MQRankSum=1.975;QD=4.58;ReadPosRankSum=1.605;SB=-229.99";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "73,30";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs201418760";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:73,30:103:99:502,0,788";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 471.73;
+   <http://purl.org/dc/terms/identifier> "1:57292";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs201418760>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs201418760>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:57292 allele C";
+   <http://purl.org/dc/terms/identifier> "1:57292#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:57292#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:57292 allele T";
+   <http://purl.org/dc/terms/identifier> "1:57292#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57292-57292:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:57292-57292 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57292:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57292:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:57292-57292:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:57292:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:57292 Forward";
+   <http://biohackathon.org/resource/faldo#position> 57292;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:57292:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:58814 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:58814-58814:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.251;DB;DP=75;Dels=0.00;FS=4.794;HRun=1;HaplotypeScore=0.8321;MQ=23.89;MQ0=1;MQRankSum=-0.006;QD=1.67;ReadPosRankSum=0.128;SB=-105.77";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "47,28";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs114420996";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:47,28:75:99:155,0,103";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 125.01;
+   <http://purl.org/dc/terms/identifier> "1:58814";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs114420996>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs114420996>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:58814 allele A";
+   <http://purl.org/dc/terms/identifier> "1:58814#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:58814#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:58814 allele G";
+   <http://purl.org/dc/terms/identifier> "1:58814#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:58814-58814:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:58814-58814 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:58814:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:58814:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:58814-58814:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:58814:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:58814 Forward";
+   <http://biohackathon.org/resource/faldo#position> 58814;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:58814:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:59040 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:59040-59040:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.671;DB;DP=51;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=25.02;MQ0=7;MQRankSum=-1.208;QD=2.13;ReadPosRankSum=-0.817;SB=-70.96";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "22,29";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs149755937";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:22,29:51:99:139,0,212";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 108.84;
+   <http://purl.org/dc/terms/identifier> "1:59040";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs149755937>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs149755937>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:59040 allele C";
+   <http://purl.org/dc/terms/identifier> "1:59040#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:59040#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:59040 allele T";
+   <http://purl.org/dc/terms/identifier> "1:59040#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:59040-59040:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:59040-59040 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:59040:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:59040:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:59040-59040:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:59040:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:59040 Forward";
+   <http://biohackathon.org/resource/faldo#position> 59040;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:59040:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:60351 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:60351-60351:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-1.228;DP=79;Dels=0.00;FS=2.248;HRun=1;HaplotypeScore=0.9789;MQ=27.20;MQ0=7;MQRankSum=0.802;QD=3.16;ReadPosRankSum=-0.351;SB=-133.20";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "48,31";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:48,31:79:99:280,0,239";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 249.69;
+   <http://purl.org/dc/terms/identifier> "1:60351";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:60351 allele A";
+   <http://purl.org/dc/terms/identifier> "1:60351#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:60351#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:60351 allele G";
+   <http://purl.org/dc/terms/identifier> "1:60351#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:60351-60351:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:60351-60351 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:60351:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:60351:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:60351-60351:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:60351:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:60351 Forward";
+   <http://biohackathon.org/resource/faldo#position> 60351;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:60351:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:61442 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:61442-61442:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=51;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=30.03;MQ0=4;QD=8.75;SB=-236.93";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,51";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs74970982";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,51:51:36.12:479,36,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 36.12;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 446.15;
+   <http://purl.org/dc/terms/identifier> "1:61442";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs74970982>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs74970982>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:61442 allele A";
+   <http://purl.org/dc/terms/identifier> "1:61442#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:61442#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:61442 allele G";
+   <http://purl.org/dc/terms/identifier> "1:61442#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:61442-61442:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:61442-61442 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:61442:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:61442:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:61442-61442:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:61442:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:61442 Forward";
+   <http://biohackathon.org/resource/faldo#position> 61442;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:61442:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:62738 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:62738-62738:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.292;DB;DP=63;Dels=0.00;FS=8.914;HRun=0;HaplotypeScore=1.6988;MQ=28.53;MQ0=4;MQRankSum=1.422;QD=1.71;ReadPosRankSum=-1.384;SB=-0.02";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "51,12";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs202181220";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:51,12:63:99:137,0,621";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 107.43;
+   <http://purl.org/dc/terms/identifier> "1:62738";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs202181220>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs202181220>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:62738 allele C";
+   <http://purl.org/dc/terms/identifier> "1:62738#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:62738#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:62738 allele T";
+   <http://purl.org/dc/terms/identifier> "1:62738#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:62738-62738:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:62738-62738 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:62738:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:62738:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:62738-62738:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:62738:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:62738 Forward";
+   <http://biohackathon.org/resource/faldo#position> 62738;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:62738:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:63268 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63268-63268:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=42;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=15.32;MQ0=18;QD=1.24;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,41";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs75478250";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,41:42:6.02:84,6,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 6.02;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 52.28;
+   <http://purl.org/dc/terms/identifier> "1:63268";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs75478250>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs75478250>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:63268 allele C";
+   <http://purl.org/dc/terms/identifier> "1:63268#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63268#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:63268 allele T";
+   <http://purl.org/dc/terms/identifier> "1:63268#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63268-63268:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:63268-63268 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63268:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63268:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:63268-63268:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63268:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:63268 Forward";
+   <http://biohackathon.org/resource/faldo#position> 63268;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:63268:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:63697 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63697-63697:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=54;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=22.00;MQ0=6;QD=3.83;SB=-118.96";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "3,51";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs201582574";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:3,51:54:18.06:240,18,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 18.06;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 206.91;
+   <http://purl.org/dc/terms/identifier> "1:63697";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs201582574>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs201582574>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:63697 allele C";
+   <http://purl.org/dc/terms/identifier> "1:63697#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:63697#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:63697 allele T";
+   <http://purl.org/dc/terms/identifier> "1:63697#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63697-63697:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:63697-63697 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63697:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63697:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:63697-63697:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:63697:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:63697 Forward";
+   <http://biohackathon.org/resource/faldo#position> 63697;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:63697:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:64931 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:64931-64931:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=1.838;DP=71;Dels=0.00;FS=8.282;HRun=2;HaplotypeScore=0.9867;MQ=27.12;MQ0=15;MQRankSum=1.753;QD=4.86;ReadPosRankSum=2.061;SB=-37.80";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "33,38";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:33,38:71:43.89:375,0,44";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 43.89;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 345.29;
+   <http://purl.org/dc/terms/identifier> "1:64931";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:64931 allele A";
+   <http://purl.org/dc/terms/identifier> "1:64931#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:64931#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:64931 allele G";
+   <http://purl.org/dc/terms/identifier> "1:64931#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:64931-64931:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:64931-64931 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:64931:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:64931:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:64931-64931:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:64931:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:64931 Forward";
+   <http://biohackathon.org/resource/faldo#position> 64931;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:64931:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:76838 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:76838-76838:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-1.254;DP=64;Dels=0.00;FS=1.423;HRun=1;HaplotypeScore=1.6553;MQ=21.83;MQ0=3;MQRankSum=-0.188;QD=1.62;ReadPosRankSum=-2.065;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "23,41";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:23,41:64:99:134,0,140";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 103.93;
+   <http://purl.org/dc/terms/identifier> "1:76838";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:76838 allele G";
+   <http://purl.org/dc/terms/identifier> "1:76838#G" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:76838#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:76838 allele T";
+   <http://purl.org/dc/terms/identifier> "1:76838#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:76838-76838:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:76838-76838 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:76838:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:76838:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:76838-76838:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:76838:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:76838 Forward";
+   <http://biohackathon.org/resource/faldo#position> 76838;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:76838:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:77089 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77089-77089:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.747;DB;DP=53;Dels=0.00;FS=0.000;HRun=1;HaplotypeScore=2.2566;MQ=21.15;MQ0=6;MQRankSum=-0.225;QD=2.08;ReadPosRankSum=-0.913;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "36,17";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs201904388";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:36,17:53:63.71:140,0,64";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 63.71;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 110.25;
+   <http://purl.org/dc/terms/identifier> "1:77089";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs201904388>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs201904388>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77089 allele C";
+   <http://purl.org/dc/terms/identifier> "1:77089#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77089#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77089 allele T";
+   <http://purl.org/dc/terms/identifier> "1:77089#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77089-77089:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:77089-77089 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77089:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77089:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77089-77089:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77089:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:77089 Forward";
+   <http://biohackathon.org/resource/faldo#position> 77089;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77089:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:77866 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77866-77866:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.681;DP=43;Dels=0.00;FS=5.905;HRun=0;HaplotypeScore=0.0000;MQ=29.01;MQ0=5;MQRankSum=0.318;QD=7.00;ReadPosRankSum=0.227;SB=-107.37";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "18,25";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:18,25:43:87.23:331,0,87";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 87.23;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 301.21;
+   <http://purl.org/dc/terms/identifier> "1:77866";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77866 allele C";
+   <http://purl.org/dc/terms/identifier> "1:77866#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77866#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77866 allele T";
+   <http://purl.org/dc/terms/identifier> "1:77866#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77866-77866:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:77866-77866 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77866:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77866:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77866-77866:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77866:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:77866 Forward";
+   <http://biohackathon.org/resource/faldo#position> 77866;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77866:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:77874 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77874-77874:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.721;DB;DP=41;Dels=0.00;FS=9.864;HRun=3;HaplotypeScore=0.0000;MQ=28.16;MQ0=5;MQRankSum=0.822;QD=7.57;ReadPosRankSum=-0.050;SB=-108.60";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "16,25";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs184538873";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:16,25:41:14.67:340,0,15";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 14.67;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 310.27;
+   <http://purl.org/dc/terms/identifier> "1:77874";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs184538873>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs184538873>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77874 allele A";
+   <http://purl.org/dc/terms/identifier> "1:77874#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:77874#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:77874 allele G";
+   <http://purl.org/dc/terms/identifier> "1:77874#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77874-77874:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:77874-77874 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77874:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77874:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77874-77874:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:77874:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:77874 Forward";
+   <http://biohackathon.org/resource/faldo#position> 77874;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:77874:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:80346 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:80346-80346:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;BaseQRankSum=-0.954;DP=43;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=15.92;MQ0=20;MQRankSum=1.016;QD=1.87;ReadPosRankSum=-0.523;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "23,20";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:23,20:43:9.03:112,9,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 9.03;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 80.21;
+   <http://purl.org/dc/terms/identifier> "1:80346";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:80346 allele C";
+   <http://purl.org/dc/terms/identifier> "1:80346#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:80346#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:80346 allele G";
+   <http://purl.org/dc/terms/identifier> "1:80346#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:80346-80346:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:80346-80346 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:80346:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:80346:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:80346-80346:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:80346:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:80346 Forward";
+   <http://biohackathon.org/resource/faldo#position> 80346;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:80346:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:83827 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83827-83827:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.236;DP=43;Dels=0.00;FS=15.124;HRun=0;HaplotypeScore=46.2146;MQ=41.49;MQ0=0;MQRankSum=0.202;QD=1.47;ReadPosRankSum=-2.329;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "36,7";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:36,7:43:93.18:93,0,596";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 93.18;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 63.19;
+   <http://purl.org/dc/terms/identifier> "1:83827";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:83827 allele A";
+   <http://purl.org/dc/terms/identifier> "1:83827#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83827#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:83827 allele G";
+   <http://purl.org/dc/terms/identifier> "1:83827#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83827-83827:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:83827-83827 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83827:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83827:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:83827-83827:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83827:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:83827 Forward";
+   <http://biohackathon.org/resource/faldo#position> 83827;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:83827:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:83829 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83829-83829:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.204;DP=42;Dels=0.02;FS=8.709;HRun=3;HaplotypeScore=51.0385;MQ=41.59;MQ0=0;MQRankSum=1.104;QD=1.49;ReadPosRankSum=-2.167;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "36,5";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:36,5:41:92.38:92,0,634";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 92.38;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 62.39;
+   <http://purl.org/dc/terms/identifier> "1:83829";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:83829 allele A";
+   <http://purl.org/dc/terms/identifier> "1:83829#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:83829#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:83829 allele G";
+   <http://purl.org/dc/terms/identifier> "1:83829#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83829-83829:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:83829-83829 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83829:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83829:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:83829-83829:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:83829:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:83829 Forward";
+   <http://biohackathon.org/resource/faldo#position> 83829;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:83829:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:86192 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:86192-86192:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=0.458;DP=51;Dels=0.00;FS=3.365;HRun=2;HaplotypeScore=0.0000;MQ=23.78;MQ0=7;MQRankSum=1.470;QD=1.49;ReadPosRankSum=0.964;SB=-39.32";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "23,28";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:23,28:51:27.28:106,0,27";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 27.28;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 75.92;
+   <http://purl.org/dc/terms/identifier> "1:86192";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:86192 allele A";
+   <http://purl.org/dc/terms/identifier> "1:86192#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:86192#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:86192 allele G";
+   <http://purl.org/dc/terms/identifier> "1:86192#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:86192-86192:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:86192-86192 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:86192:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:86192:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:86192-86192:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:86192:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:86192 Forward";
+   <http://biohackathon.org/resource/faldo#position> 86192;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:86192:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:87190 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:87190-87190:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=60;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=40.67;MQ0=3;QD=20.56;SB=-450.16";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,60";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs1524602";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,60:60:96.31:1267,96,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 96.31;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 1233.76;
+   <http://purl.org/dc/terms/identifier> "1:87190";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs1524602>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1524602>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:87190 allele A";
+   <http://purl.org/dc/terms/identifier> "1:87190#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:87190#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:87190 allele G";
+   <http://purl.org/dc/terms/identifier> "1:87190#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:87190-87190:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:87190-87190 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:87190:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:87190:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:87190-87190:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:87190:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:87190 Forward";
+   <http://biohackathon.org/resource/faldo#position> 87190;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:87190:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:88169 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88169-88169:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=70;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=1.6208;MQ=34.28;MQ0=1;QD=10.53;SB=-72.24";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,70";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs940550";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,70:70:60.19:770,60,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 60.19;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 736.83;
+   <http://purl.org/dc/terms/identifier> "1:88169";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs940550>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs940550>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:88169 allele C";
+   <http://purl.org/dc/terms/identifier> "1:88169#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88169#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:88169 allele T";
+   <http://purl.org/dc/terms/identifier> "1:88169#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88169-88169:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:88169-88169 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88169:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88169:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:88169-88169:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88169:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:88169 Forward";
+   <http://biohackathon.org/resource/faldo#position> 88169;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:88169:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:88338 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88338-88338:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-3.318;DB;DP=82;Dels=0.00;FS=2.251;HRun=1;HaplotypeScore=2.2019;MQ=48.19;MQ0=0;MQRankSum=-1.141;QD=14.49;ReadPosRankSum=0.989;SB=-494.02";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "20,62";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs55700207";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:20,62:82:99:1218,0,517";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 1187.99;
+   <http://purl.org/dc/terms/identifier> "1:88338";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs55700207>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs55700207>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:88338 allele A";
+   <http://purl.org/dc/terms/identifier> "1:88338#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:88338#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:88338 allele G";
+   <http://purl.org/dc/terms/identifier> "1:88338#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88338-88338:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:88338-88338 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88338:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88338:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:88338-88338:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:88338:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:88338 Forward";
+   <http://biohackathon.org/resource/faldo#position> 88338;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:88338:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:104186 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:104186-104186:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;BaseQRankSum=0.217;DB;DP=28;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=28.42;MQ0=12;MQRankSum=1.302;QD=13.18;ReadPosRankSum=1.085;SB=-77.80";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "8,20";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs200455936";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:8,20:28:30.10:402,30,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 30.1;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 368.97;
+   <http://purl.org/dc/terms/identifier> "1:104186";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs200455936>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs200455936>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:104186 allele C";
+   <http://purl.org/dc/terms/identifier> "1:104186#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:104186#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:104186 allele T";
+   <http://purl.org/dc/terms/identifier> "1:104186#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:104186-104186:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:104186-104186 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:104186:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:104186:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:104186-104186:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:104186:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:104186 Forward";
+   <http://biohackathon.org/resource/faldo#position> 104186;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:104186:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:109640 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:109640-109640:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.380;DB;DP=27;Dels=0.00;FS=4.868;HRun=1;HaplotypeScore=0.0000;MQ=27.98;MQ0=6;MQRankSum=1.902;QD=6.78;ReadPosRankSum=-1.648;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "8,19";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs201327920";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:8,19:27:19.58:213,0,20";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 19.58;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 183.07;
+   <http://purl.org/dc/terms/identifier> "1:109640";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs201327920>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs201327920>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:109640 allele A";
+   <http://purl.org/dc/terms/identifier> "1:109640#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:109640#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:109640 allele T";
+   <http://purl.org/dc/terms/identifier> "1:109640#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:109640-109640:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:109640-109640 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:109640:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:109640:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:109640-109640:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:109640:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:109640 Forward";
+   <http://biohackathon.org/resource/faldo#position> 109640;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:109640:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:118617 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:118617-118617:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;BaseQRankSum=1.650;DP=42;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=36.41;MQ0=0;MQRankSum=1.568;QD=35.78;ReadPosRankSum=1.485;SB=-628.99";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "1,41";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:1,41:42:99:1536,117,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 1502.73;
+   <http://purl.org/dc/terms/identifier> "1:118617";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:118617 allele C";
+   <http://purl.org/dc/terms/identifier> "1:118617#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:118617#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:118617 allele T";
+   <http://purl.org/dc/terms/identifier> "1:118617#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:118617-118617:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:118617-118617 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:118617:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:118617:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:118617-118617:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:118617:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:118617 Forward";
+   <http://biohackathon.org/resource/faldo#position> 118617;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:118617:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:121009 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:121009-121009:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DB;DP=5;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=28.66;MQ0=2;QD=16.02;SB=-33.57";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,5";
+   <http://dbtss.hgc.jp/rdf/ontology/dbsnpID> "rs1851943";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,5:5:9.03:112,9,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 9.03;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 80.12;
+   <http://purl.org/dc/terms/identifier> "1:121009";
+   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://info.identifiers.org/dbsnp/rs1851943>,
+     <http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=rs1851943>;
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:121009 allele C";
+   <http://purl.org/dc/terms/identifier> "1:121009#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:121009#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:121009 allele T";
+   <http://purl.org/dc/terms/identifier> "1:121009#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:121009-121009:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:121009-121009 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:121009:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:121009:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:121009-121009:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:121009:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:121009 Forward";
+   <http://biohackathon.org/resource/faldo#position> 121009;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:121009:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:133129 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:133129-133129:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DP=43;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=19.86;MQ0=26;QD=4.83;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "16,27";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:16,27:43:18.06:241,18,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 18.06;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 207.76;
+   <http://purl.org/dc/terms/identifier> "1:133129";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:133129 allele A";
+   <http://purl.org/dc/terms/identifier> "1:133129#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:133129#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:133129 allele G";
+   <http://purl.org/dc/terms/identifier> "1:133129#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:133129-133129:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:133129-133129 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:133129:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:133129:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:133129-133129:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:133129:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:133129 Forward";
+   <http://biohackathon.org/resource/faldo#position> 133129;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:133129:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136437 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136437-136437:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DP=56;Dels=0.00;FS=0.000;HRun=1;HaplotypeScore=0.0000;MQ=18.98;MQ0=2;QD=2.85;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "0,56";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:0,56:56:15.05:193,15,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 15.05;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 159.83;
+   <http://purl.org/dc/terms/identifier> "1:136437";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437#T>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437#C> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136437 allele C";
+   <http://purl.org/dc/terms/identifier> "1:136437#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136437#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136437 allele T";
+   <http://purl.org/dc/terms/identifier> "1:136437#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136437-136437:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136437-136437 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136437:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136437:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136437-136437:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136437:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136437 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136437;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136437:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136603 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136603-136603:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.774;DP=80;Dels=0.00;FS=6.732;HRun=2;HaplotypeScore=5.6301;MQ=35.12;MQ0=8;MQRankSum=-0.701;QD=1.55;ReadPosRankSum=-2.996;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "55,24";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:55,24:80:99:154,0,591";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 124.35;
+   <http://purl.org/dc/terms/identifier> "1:136603";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136603 allele A";
+   <http://purl.org/dc/terms/identifier> "1:136603#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136603#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136603 allele G";
+   <http://purl.org/dc/terms/identifier> "1:136603#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136603-136603:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136603-136603 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136603:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136603:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136603-136603:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136603:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136603 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136603;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136603:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136652 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136652-136652:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.665;DP=80;Dels=0.00;FS=6.306;HRun=2;HaplotypeScore=25.7981;MQ=32.70;MQ0=11;MQRankSum=0.057;QD=0.97;ReadPosRankSum=-0.228;SB=-20.21";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "48,32";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:48,32:80:99:107,0,271";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 77.33;
+   <http://purl.org/dc/terms/identifier> "1:136652";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652#G> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136652 allele A";
+   <http://purl.org/dc/terms/identifier> "1:136652#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136652#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136652 allele G";
+   <http://purl.org/dc/terms/identifier> "1:136652#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136652-136652:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136652-136652 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136652:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136652:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136652-136652:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136652:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136652 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136652;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136652:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136731 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136731-136731:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-1.014;DP=79;Dels=0.00;FS=1.309;HRun=0;HaplotypeScore=5.5880;MQ=36.26;MQ0=11;MQRankSum=3.293;QD=5.58;ReadPosRankSum=-0.278;SB=-199.04";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "45,33";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:45,33:79:99:471,0,171";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 440.6;
+   <http://purl.org/dc/terms/identifier> "1:136731";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136731 allele A";
+   <http://purl.org/dc/terms/identifier> "1:136731#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136731#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136731 allele G";
+   <http://purl.org/dc/terms/identifier> "1:136731#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136731-136731:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136731-136731 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136731:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136731:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136731-136731:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136731:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136731 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136731;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136731:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136836 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136836-136836:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-0.616;DP=66;Dels=0.00;FS=3.452;HRun=0;HaplotypeScore=2.4682;MQ=32.71;MQ0=6;MQRankSum=1.384;QD=1.24;ReadPosRankSum=-1.768;SB=-22.60";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "42,23";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:42,23:66:99:112,0,413";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 99.0;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 81.73;
+   <http://purl.org/dc/terms/identifier> "1:136836";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836#G>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136836 allele A";
+   <http://purl.org/dc/terms/identifier> "1:136836#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136836#G> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136836 allele G";
+   <http://purl.org/dc/terms/identifier> "1:136836#G" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136836-136836:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136836-136836 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136836:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136836:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136836-136836:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136836:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136836 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136836;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136836:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:136962 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136962-136962:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=1;AF=0.50;AN=2;BaseQRankSum=-2.327;DP=71;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.7340;MQ=25.63;MQ0=28;MQRankSum=1.667;QD=2.06;ReadPosRankSum=1.436;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 0.5;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "42,26";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "0/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|0/1:42,26:71:93.82:176,0,94";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 93.82;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 146.41;
+   <http://purl.org/dc/terms/identifier> "1:136962";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136962 allele C";
+   <http://purl.org/dc/terms/identifier> "1:136962#C" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:136962#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:136962 allele T";
+   <http://purl.org/dc/terms/identifier> "1:136962#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136962-136962:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:136962-136962 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136962:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136962:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136962-136962:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:136962:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:136962 Forward";
+   <http://biohackathon.org/resource/faldo#position> 136962;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:136962:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:139233 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:139233-139233:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DP=67;Dels=0.00;FS=0.000;HRun=0;HaplotypeScore=0.0000;MQ=17.84;MQ0=25;QD=3.93;SB=-104.61";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "19,46";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:19,46:67:24.07:296,24,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 24.07;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 263.19;
+   <http://purl.org/dc/terms/identifier> "1:139233";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233#C>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233#A> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:139233 allele A";
+   <http://purl.org/dc/terms/identifier> "1:139233#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:139233#C> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:139233 allele C";
+   <http://purl.org/dc/terms/identifier> "1:139233#C" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:139233-139233:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:139233-139233 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:139233:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:139233:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:139233-139233:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:139233:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:139233 Forward";
+   <http://biohackathon.org/resource/faldo#position> 139233;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:139233:1" .
+
+<http://dbtss.hgc.jp/rdf/experiment/TSE000086> <http://dbtss.hgc.jp/rdf/ontology/has_SNV> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006> a <http://purl.obolibrary.org/obo/SO_0001483>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "variation on chr1:158006 from TSE000086";
+   <http://biohackathon.org/resource/faldo#location> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:158006-158006:1>;
+   <http://dbtss.hgc.jp/rdf/ontology/additionalInfomation> "AC=2;AF=1.00;AN=2;DP=35;Dels=0.00;FS=0.000;HRun=5;HaplotypeScore=0.0000;MQ=17.05;MQ0=9;QD=4.02;SB=-0.01";
+   <http://dbtss.hgc.jp/rdf/ontology/alleleFrequency> 1.0;
+   <http://dbtss.hgc.jp/rdf/ontology/allelicDepths> "10,25";
+   <http://dbtss.hgc.jp/rdf/ontology/genotype> "1/1";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeData> "GT:AD:DP:GQ:PL|1/1:10,25:35:15.04:174,15,0";
+   <http://dbtss.hgc.jp/rdf/ontology/genotypeQuality> 15.04;
+   <http://dbtss.hgc.jp/rdf/ontology/quality> 140.8;
+   <http://purl.org/dc/terms/identifier> "1:158006";
+   <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#has_allele> <http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006#A>,
+     <http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006#T> .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006#A> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#reference_allele>,
+     <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#ancestral_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:158006 allele A";
+   <http://purl.org/dc/terms/identifier> "1:158006#A" .
+
+<http://dbtss.hgc.jp/rdf/data/TSE000086/1:158006#T> a <https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#derived_allele>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "TSE000086 chr1:158006 allele T";
+   <http://purl.org/dc/terms/identifier> "1:158006#T" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:158006-158006:1> a <http://biohackathon.org/resource/faldo#Region>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GRCh38 chr1:158006-158006 Forward";
+   <http://biohackathon.org/resource/faldo#begin> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:158006:1>;
+   <http://biohackathon.org/resource/faldo#end> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:158006:1>;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:158006-158006:1" .
+
+<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1:158006:1> a <http://biohackathon.org/resource/faldo#ExactPosition>,
+     <http://biohackathon.org/resource/faldo#ForwardStrandPosition>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "RCh38 chr1:158006 Forward";
+   <http://biohackathon.org/resource/faldo#position> 158006;
+   <http://biohackathon.org/resource/faldo#reference> <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:1>;
+   <http://purl.org/dc/terms/identifier> "chromosome:GRCh38:1:158006:1" .
