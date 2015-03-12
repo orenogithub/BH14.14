@@ -48,7 +48,7 @@ client.query("SHOW tables").each do |table|
     if col["Key"] == "PRI"
       id   = col['Field']
       map  = "mappingId\t#{table} #{id}\n"
-      map += "target\t\t<#{pfix}/ontology##{table}/{#{id}}> a :#{table} .\n"
+      map += "target\t\t<#{pfix}data##{table}/{#{id}}> a :#{table} .\n"
       map += "source\t\tSELECT #{id} FROM #{table}\n"
       mappings << map
     else
@@ -56,7 +56,7 @@ client.query("SHOW tables").each do |table|
       properties << field
       
       map  = "mappingId\t#{table} #{field}\n"
-      map += "target\t\t<#{pfix}/ontology##{table}/{#{id}}> :#{field} {#{field}} .\n"
+      map += "target\t\t<#{pfix}data##{table}/{#{id}}> :#{field} {#{field}} .\n"
       map += "source\t\tSELECT #{id},#{field} FROM #{table}\n"
       mappings << map
     end
