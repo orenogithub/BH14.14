@@ -12,6 +12,7 @@ ontology = File.open("ontology/ontop_dbtss.owl", "w")
 client = Mysql2::Client.new(:host => 'localhost', :username => user, :password => pass, :database => db)
 
 
+
 # [PrefixDeclaration]
 map_file.puts "[PrefixDeclaration]
 :\t\t#{pfix}ontology#

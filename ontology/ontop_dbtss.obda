@@ -1,4 +1,4 @@
-[PrefixDeclaration]
+ [PrefixDeclaration]
 :		http://dbtss.hgc.jp/rdf/ontology#
 xsd:		http://www.w3.org/2001/XMLSchema#
 owl:		http://www.w3.org/2002/07/owl#
