@@ -1,6 +1,7 @@
 @prefix map: <#> .
 @prefix db: <> .
 @prefix vocab: <vocab/> .
+@prefix faldo: <http://biohackathon.org/resource/faldo#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -22,6 +23,24 @@ map:vcf_inf_9606_chr21_LC2ad a d2rq:ClassMap;
 	d2rq:uriPattern "vcf_inf_9606_chr21_LC2ad/@@vcf_inf_9606_chr21_LC2ad.id@@";
 	d2rq:class vocab:vcf_inf_9606_chr21_LC2ad;
 	d2rq:classDefinitionLabel "vcf_inf_9606_chr21_LC2ad";
+	.
+map:faldo_region a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@-@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	d2rq:class faldo:Region;
+	d2rq:classDefinitionLabel "faldo region";
+	.
+map:faldo_exact_position a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	d2rq:class faldo:ExactPosition;
+	d2rq:classDefinitionLabel "faldo exact position";
+	.
+map:faldo_forward_strand_position a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	d2rq:class faldo:ForwardStrandPosition;
+	d2rq:classDefinitionLabel "faldo forward strand position";
 	.
 map:vcf_inf_9606_chr21_LC2ad__label a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:vcf_inf_9606_chr21_LC2ad;
@@ -47,6 +66,40 @@ map:vcf_inf_9606_chr21_LC2ad_chr a d2rq:PropertyBridge;
 	d2rq:property vocab:vcf_inf_9606_chr21_LC2ad_chr;
 	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad chr";
 	d2rq:column "vcf_inf_9606_chr21_LC2ad.chr";
+	.
+map:vcf_inf_9606_chr21_LC2ad_faldo_location a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:vcf_inf_9606_chr21_LC2ad;
+	d2rq:property faldo:location;
+	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad faldo location";
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@-@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	.
+map:vcf_inf_9606_chr21_LC2ad_faldo_begin a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:faldo_region;
+	d2rq:property faldo:begin;
+	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad faldo begin";
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	.
+map:vcf_inf_9606_chr21_LC2ad_faldo_end a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:faldo_region;
+	d2rq:property faldo:end;
+	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad faldo end";
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@:@@vcf_inf_9606_chr21_LC2ad.pos@@:1";
+	.
+map:vcf_inf_9606_chr21_LC2ad_faldo_reference a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:faldo_region;
+	d2rq:belongsToClassMap map:faldo_exact_position;
+	d2rq:belongsToClassMap map:faldo_forward_strand_position;
+	d2rq:property faldo:reference;
+	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad faldo end";
+	d2rq:uriPattern "http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:@@vcf_inf_9606_chr21_LC2ad.chr@@";
+	.
+map:vcf_inf_9606_chr21_LC2ad_faldo_position a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:faldo_exact_position;
+	d2rq:belongsToClassMap map:faldo_forward_strand_position;
+	d2rq:property faldo:position;
+	d2rq:propertyDefinitionLabel "vcf_inf_9606_chr21_LC2ad faldo position";
+	d2rq:column "vcf_inf_9606_chr21_LC2ad.pos";
+	d2rq:datatype xsd:integer;
 	.
 map:vcf_inf_9606_chr21_LC2ad_pos a d2rq:PropertyBridge;
 	d2rq:belongsToClassMap map:vcf_inf_9606_chr21_LC2ad;
