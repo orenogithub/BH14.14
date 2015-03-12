@@ -1,5 +1,6 @@
 [PrefixDeclaration]
 :		http://dbtss.hgc.jp/rdf/ontology#
+faldo:		http://biohackathon.org/resource/faldo#
 xsd:		http://www.w3.org/2001/XMLSchema#
 owl:		http://www.w3.org/2002/07/owl#
 rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
@@ -24,6 +25,42 @@ source		SELECT id,bin FROM vcf_inf_9606_chr21_LC2ad
 mappingId	vcf_inf_9606_chr21_LC2ad chr
 target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :chr {chr} .
 source		SELECT id,chr FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo location
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> faldo:location <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}-{pos}:1> .
+source		SELECT id, REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo region
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}-{pos}:1> a faldo:Region .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo begin
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}-{pos}:1> faldo:begin <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo end
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}-{pos}:1> faldo:end <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo region reference
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}-{pos}:1> faldo:reference <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}> .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo exact position
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> a faldo:ExactPosition .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo forward strand position
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> a faldo:ForwardStrandPosition .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo position
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> faldo:position {pos} .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad faldo position reference
+target		<http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}:{pos}:1> faldo:reference <http://dbtss.hgc.jp/rdf/location/chromosome:GRCh38:{chr}> .
+source		SELECT REPLACE(chr, "chr", "") AS chr, pos FROM vcf_inf_9606_chr21_LC2ad
 
 mappingId	vcf_inf_9606_chr21_LC2ad pos
 target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :pos {pos} .

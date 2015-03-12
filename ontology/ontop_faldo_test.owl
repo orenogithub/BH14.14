@@ -12,6 +12,11 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <owl:Ontology rdf:about="http://dbtss.hgc.jp/rdf/ontology"/>
+   <owl:ObjectProperty rdf:about="http://biohackathon.org/resource/faldo#location"/>
+   <owl:ObjectProperty rdf:about="http://biohackathon.org/resource/faldo#begin"/>
+   <owl:ObjectProperty rdf:about="http://biohackathon.org/resource/faldo#end"/>
+   <owl:ObjectProperty rdf:about="http://biohackathon.org/resource/faldo#reference"/>
+   <owl:DatatypeProperty rdf:about="http://biohackathon.org/resource/faldo#position"/>
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#ad"/>
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#af"/>
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#age"/>
@@ -66,6 +71,9 @@
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#type"/>
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#utr_end"/>
    <owl:DatatypeProperty rdf:about="http://dbtss.hgc.jp/rdf/ontology#utr_start"/>
+   <owl:Class rdf:about="http://biohackathon.org/resource/faldo#Region"/>
+   <owl:Class rdf:about="http://biohackathon.org/resource/faldo#ExactPosition"/>
+   <owl:Class rdf:about="http://biohackathon.org/resource/faldo#ForwardStrandPosition"/>
    <owl:Class rdf:about="http://dbtss.hgc.jp/rdf/ontology#bs_data_9606_LC2ad"/>
    <owl:Class rdf:about="http://dbtss.hgc.jp/rdf/ontology#chip_inf_9606_chr10_LC2ad_H3K4me3"/>
    <owl:Class rdf:about="http://dbtss.hgc.jp/rdf/ontology#chip_inf_9606_chr11_LC2ad_H3K4me3"/>
