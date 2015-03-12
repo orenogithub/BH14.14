@@ -1,0 +1,63 @@
+[PrefixDeclaration]
+:		http://dbtss.hgc.jp/rdf/ontology#
+xsd:		http://www.w3.org/2001/XMLSchema#
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rdfs:		http://www.w3.org/TR/rdf-schema/#
+
+[SourceDeclaration]
+sourceUri       dbtss-connection
+connectionUrl   jdbc:mysql://localhost:3306/dbtss
+username        dbtss
+password        dbtss
+driverClass     com.mysql.jdbc.Driver
+
+[MappingDeclaration] @collection [[
+mappingId	vcf_inf_9606_chr21_LC2ad id
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> a :vcf_inf_9606_chr21_LC2ad .
+source		SELECT id FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad bin
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :bin {bin} .
+source		SELECT id,bin FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad chr
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :chr {chr} .
+source		SELECT id,chr FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad pos
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :pos {pos} .
+source		SELECT id,pos FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad known
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :known {known} .
+source		SELECT id,known FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad bases
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :bases {bases} .
+source		SELECT id,bases FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad ad
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :ad {ad} .
+source		SELECT id,ad FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad gt
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :gt {gt} .
+source		SELECT id,gt FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad gq
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :gq {gq} .
+source		SELECT id,gq FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad af
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :af {af} .
+source		SELECT id,af FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad info
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :info {info} .
+source		SELECT id,info FROM vcf_inf_9606_chr21_LC2ad
+
+mappingId	vcf_inf_9606_chr21_LC2ad detail
+target		<http://dbtss.hgc.jp/rdf/data#vcf_inf_9606_chr21_LC2ad/{id}> :detail {detail} .
+source		SELECT id,detail FROM vcf_inf_9606_chr21_LC2ad
+]]
