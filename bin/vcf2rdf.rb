@@ -11,15 +11,16 @@ sample = ARGV[1] || "TSE000086"
 #########################################################
 #  define PREFIX
 #########################################################
-rdf    = RDF::Vocabulary.new("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
-rdfs   = RDF::Vocabulary.new("http://www.w3.org/TR/rdf-schema/#")
-owl    = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
-obo    = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
-dc     = RDF::Vocabulary.new("http://purl.org/dc/terms/")
-dbtsse = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
-dbtsso = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
-faldo  = RDF::Vocabulary.new("http://biohackathon.org/resource/faldo#")
-idorg  = RDF::Vocabulary.new("http://info.identifiers.org/")
+rdf     = RDF::Vocabulary.new("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+rdfs    = RDF::Vocabulary.new("http://www.w3.org/2000/01/rdf-schema#")
+owl     = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
+obo     = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
+dc      = RDF::Vocabulary.new("http://purl.org/dc/terms/")
+dbtsse  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
+dbtsso  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
+faldo   = RDF::Vocabulary.new("http://biohackathon.org/resource/faldo#")
+dbsnp   = RDF::Vocabulary.new("http://info.identifiers.org/dbsnp/")
+ncbisnp = RDF::Vocabulary.new("http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=")
 ensemblvariation = RDF::Vocabulary.new("https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#")
 #efo = RDF::Vocabulary.new("http://www.ebi.ac.uk/efo/")
 #sio = RDF::Vocabulary.new("http://semanticscience.org/resource/")
@@ -38,7 +39,8 @@ puts "@prefix dc: <#{RDF::URI(dc)}> ."
 puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
 puts "@prefix dbtsso: <#{RDF::URI(dbtsso)}> ."
 puts "@prefix faldo: <#{RDF::URI(faldo)}> ."
-puts "@prefix idorg: <#{RDF::URI(idorg)}> ."
+puts "@prefix dbsnp: <#{RDF::URI(dbsnp)}> ."
+puts "@prefix ncbisnp: <#{RDF::URI(ncbisnp)}> ."
 puts "@prefix ensembl: <#{RDF::URI(ensemblvariation)}> ."
 
 File.open(file).each do |line|
@@ -53,12 +55,12 @@ File.open(file).each do |line|
     
     graph << [experiment, dbtsso.has_SNV, subject]
     graph << [subject, RDF.type, obo.SO_0001483]
-    graph << [subject, RDF::DC.identifier, "#{chrom}:#{pos}"]
-    graph << [subject, RDF::RDFS.label, "variation on chr#{chrom}:#{pos} from #{sample}"]
+    graph << [subject, DC.identifier, "#{chrom}:#{pos}"]
+    graph << [subject, RDFS.label, "variation on chr#{chrom}:#{pos} from #{sample}"]
     
     if id =~ /^rs\d+/
-      graph << [subject, RDF::RDFS.seeAlso, idorg.dbsnp/id]
-      graph << [subject, RDF::RDFS.seeAlso, RDF::URI("http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=#{id}")]
+      graph << [subject, RDFS.seeAlso, RDF::URI("http://info.identifiers.org/dbsnp/#{id}")]
+      graph << [subject, RDFS.seeAlso, RDF::URI("http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=#{id}")]
       graph << [subject, dbtsso.dbsnpID, id]
     end
     
@@ -71,7 +73,7 @@ File.open(file).each do |line|
     graph << [subject, faldo.location, faldo_region]
     graph << [faldo_region, RDF.type, faldo.Region]
     graph << [faldo_region, DC.identifier, "chromosome:GRCh38:#{chrom}:#{pos}-#{pos}:1"]
-    graph << [faldo_region, RDF::RDFS.label, "GRCh38 chr#{chrom}:#{pos}-#{pos} Forward"]
+    graph << [faldo_region, RDFS.label, "GRCh38 chr#{chrom}:#{pos}-#{pos} Forward"]
     graph << [faldo_region, faldo.begin, faldo_position]
     graph << [faldo_region, faldo.end, faldo_position]
     graph << [faldo_region, faldo.reference, faldo_reference]
@@ -79,7 +81,7 @@ File.open(file).each do |line|
     graph << [faldo_position, RDF.type, faldo.ExactPosition]
     graph << [faldo_position, RDF.type, faldo.ForwardStrandPosition]
     graph << [faldo_position, DC.identifier, "chromosome:GRCh38:#{chrom}:#{pos}:1"]
-    graph << [faldo_position, RDFS.label, "RCh38 chr#{chrom}:#{pos} Forward"]
+    graph << [faldo_position, RDFS.label, "GRCh38 chr#{chrom}:#{pos} Forward"]
     graph << [faldo_position, faldo.position, pos.to_i]
     graph << [faldo_position, faldo.reference, faldo_reference]
     
@@ -131,7 +133,20 @@ File.open(file).each do |line|
     graph << [subject, dbtsso.genotype, detail["GT"]] if detail["GT"]
     graph << [subject, dbtsso.genotypeQuality, detail["GQ"].to_f] if detail["GQ"]
     
-    puts graph.dump(:turtle)
+    graph = graph.dump(:ttl, prefixes:
+    {
+      rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+      obo: "http://purl.obolibrary.org/obo/",
+      dc: "http://purl.org/dc/terms/",
+      dbtsse: "http://dbtss.hgc.jp/rdf/experiment/",
+      dbtsso: "http://dbtss.hgc.jp/rdf/ontology/",
+      faldo: "http://biohackathon.org/resource/faldo#",
+      dbsnp: "http://info.identifiers.org/dbsnp/",
+      ncbisnp: "http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=",
+      ensemblvariation: "https://github.com/simonjupp/ensembl-rdf/blob/master/ontology/ensembl_variation_ontology.owl#"
+    })
+    puts graph.gsub(/^@.+\n/, "")
     graph.clear
   end
 end
