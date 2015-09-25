@@ -9,13 +9,14 @@ file = ARGV[0] || "sample/DBTSS_definition.tsv"
 #########################################################
 #  define PREFIX
 #########################################################
-rdf = RDF::Vocabulary.new("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+rdf  = RDF::Vocabulary.new("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
 rdfs = RDF::Vocabulary.new("http://www.w3.org/TR/rdf-schema/#")
-owl = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
-obo = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
-dc = RDF::Vocabulary.new("http://purl.org/dc/terms/")
-dbtsse = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
-dbtsso = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
+owl  = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
+obo  = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
+dc   = RDF::Vocabulary.new("http://purl.org/dc/terms/")
+kero = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
+#dbtsse = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
+#kero = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
 #faldo = RDF::Vocabulary.new("http://biohackathon.org/resource/faldo#")
 #idorg = RDF::Vocabulary.new("http://info.identifiers.org/")
 #efo = RDF::Vocabulary.new("http://www.ebi.ac.uk/efo/")
@@ -30,8 +31,9 @@ dbtsso = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
 puts "@prefix rdf: <#{RDF::URI(rdf)}> ."
 puts "@prefix rdfs: <#{RDF::URI(rdfs)}> ."
 puts "@prefix dc: <#{RDF::URI(dc)}> ."
-puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
-puts "@prefix dbtsso: <#{RDF::URI(dbtsso)}> ."
+puts "@prefix kero: <#{RDF::URI(kero)}> ."
+#puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
+#puts "@prefix kero: <#{RDF::URI(kero)}> ."
 
 graph = RDF::Graph.new
 
@@ -42,12 +44,19 @@ File.open(file).each do |line|
   exp_class = subclass if subclass
   sample = name.gsub(/\s\(control\)$/, "")
   
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF.type, dbtsso.Experiment]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.experimentType, RDF::URI("http://dbtss.hgc.jp/rdf/ontology/#{exp_class}")]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF.type, kero.Experiment]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), kero.experimentType, RDF::URI("http://dbtss.hgc.jp/rdf/ontology/#{exp_class}")]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::DC.identifier, id]
   graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), RDF::RDFS.label, name]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.version, "9"]
-  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), dbtsso.resource, RDF::URI("http://dbtss.hgc.jp/rdf/sample/#{sample}")]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), kero.version, "9"]
+  graph << [RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{id}"), kero.resource, RDF::URI("http://dbtss.hgc.jp/rdf/sample/#{sample}")]
 end
 
-puts graph.dump(:turtle)
+puts graph.dump(:turtle, prefixes:
+{
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+  obo: "http://purl.obolibrary.org/obo/",
+  dc: "http://purl.org/dc/terms/",
+  kero: "http://dbtss.hgc.jp/rdf/ontology/"
+})
