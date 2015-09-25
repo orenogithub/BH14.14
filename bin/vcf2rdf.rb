@@ -16,8 +16,9 @@ rdfs    = RDF::Vocabulary.new("http://www.w3.org/2000/01/rdf-schema#")
 owl     = RDF::Vocabulary.new("http://www.w3.org/2002/07/owl#")
 obo     = RDF::Vocabulary.new("http://purl.obolibrary.org/obo/")
 dc      = RDF::Vocabulary.new("http://purl.org/dc/terms/")
-dbtsse  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
-dbtsso  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
+#dbtsse  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/experiment/")
+#kero  = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
+kero    = RDF::Vocabulary.new("http://dbtss.hgc.jp/rdf/ontology/")
 faldo   = RDF::Vocabulary.new("http://biohackathon.org/resource/faldo#")
 dbsnp   = RDF::Vocabulary.new("http://info.identifiers.org/dbsnp/")
 ncbisnp = RDF::Vocabulary.new("http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=")
@@ -36,12 +37,13 @@ puts "@prefix rdfs: <#{RDF::URI(rdfs)}> ."
 puts "@prefix owl: <#{RDF::URI(owl)}> ."
 puts "@prefix obo: <#{RDF::URI(obo)}> ."
 puts "@prefix dc: <#{RDF::URI(dc)}> ."
-puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
-puts "@prefix dbtsso: <#{RDF::URI(dbtsso)}> ."
+#puts "@prefix dbtsse: <#{RDF::URI(dbtsse)}> ."
+#puts "@prefix kero: <#{RDF::URI(kero)}> ."
+puts "@prefix kero: <#{RDF::URI(kero)}> ."
 puts "@prefix faldo: <#{RDF::URI(faldo)}> ."
 puts "@prefix dbsnp: <#{RDF::URI(dbsnp)}> ."
 puts "@prefix ncbisnp: <#{RDF::URI(ncbisnp)}> ."
-puts "@prefix ensembl: <#{RDF::URI(ensemblvariation)}> ."
+puts "@prefix ensemblvariation: <#{RDF::URI(ensemblvariation)}> ."
 
 File.open(file).each do |line|
   unless line =~ /^#/
@@ -53,7 +55,7 @@ File.open(file).each do |line|
     experiment = RDF::URI("http://dbtss.hgc.jp/rdf/experiment/#{sample}")
     subject    = RDF::URI("http://dbtss.hgc.jp/rdf/data/#{sample}/#{chrom}:#{pos}")
     
-    graph << [experiment, dbtsso.has_SNV, subject]
+    graph << [experiment, kero.has_SNV, subject]
     graph << [subject, RDF.type, obo.SO_0001483]
     graph << [subject, DC.identifier, "#{chrom}:#{pos}"]
     graph << [subject, RDFS.label, "variation on chr#{chrom}:#{pos} from #{sample}"]
@@ -61,7 +63,7 @@ File.open(file).each do |line|
     if id =~ /^rs\d+/
       graph << [subject, RDFS.seeAlso, RDF::URI("http://info.identifiers.org/dbsnp/#{id}")]
       graph << [subject, RDFS.seeAlso, RDF::URI("http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=#{id}")]
-      graph << [subject, dbtsso.dbsnpID, id]
+      graph << [subject, kero.dbsnpID, id]
     end
     
     
@@ -103,12 +105,12 @@ File.open(file).each do |line|
     
     
     # others
-    graph << [subject, dbtsso.quality, qual.to_f]
-    graph << [subject, dbtsso.filter, filter] unless filter == "."
+    graph << [subject, kero.quality, qual.to_f]
+    graph << [subject, kero.filter, filter] unless filter == "."
     
     
     # info
-    graph << [subject, dbtsso.additionalInfomation, info]
+    graph << [subject, kero.additionalInfomation, info]
     
     information = Hash.new
     info.split(";").each do |i|
@@ -116,11 +118,11 @@ File.open(file).each do |line|
       information[k] = v
     end
     
-    graph << [subject, dbtsso.alleleFrequency, information["AF"].to_f] if information["AF"]
+    graph << [subject, kero.alleleFrequency, information["AF"].to_f] if information["AF"]
     
     
     # format
-    graph << [subject, dbtsso.genotypeData, "#{format}|#{value}"]
+    graph << [subject, kero.genotypeData, "#{format}|#{value}"]
     
     format = format.split(":")
     value  = value.split(":")
@@ -129,9 +131,9 @@ File.open(file).each do |line|
       detail[format[i]] = value[i]
     end
     
-    graph << [subject, dbtsso.allelicDepths, detail["AD"]] if detail["AD"]
-    graph << [subject, dbtsso.genotype, detail["GT"]] if detail["GT"]
-    graph << [subject, dbtsso.genotypeQuality, detail["GQ"].to_f] if detail["GQ"]
+    graph << [subject, kero.allelicDepths, detail["AD"]] if detail["AD"]
+    graph << [subject, kero.genotype, detail["GT"]] if detail["GT"]
+    graph << [subject, kero.genotypeQuality, detail["GQ"].to_f] if detail["GQ"]
     
     graph = graph.dump(:ttl, prefixes:
     {
@@ -139,8 +141,9 @@ File.open(file).each do |line|
       rdfs: "http://www.w3.org/2000/01/rdf-schema#",
       obo: "http://purl.obolibrary.org/obo/",
       dc: "http://purl.org/dc/terms/",
-      dbtsse: "http://dbtss.hgc.jp/rdf/experiment/",
-      dbtsso: "http://dbtss.hgc.jp/rdf/ontology/",
+      #dbtsse: "http://dbtss.hgc.jp/rdf/experiment/",
+      #kero: "http://dbtss.hgc.jp/rdf/ontology/",
+      kero: "http://dbtss.hgc.jp/rdf/ontology/",
       faldo: "http://biohackathon.org/resource/faldo#",
       dbsnp: "http://info.identifiers.org/dbsnp/",
       ncbisnp: "http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=",
